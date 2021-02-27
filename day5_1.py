@@ -48,7 +48,7 @@ all_countrys = dictionary.keys()
 
 # print(all_countrys)
 index_dict = {}
-print("Hello Please choose select a country by number")
+print("Hello! Please choose select a country by number:")
 for i, v in enumerate(all_countrys):
     print("# {} {}".format(i, v))
     index_dict[i] = v
